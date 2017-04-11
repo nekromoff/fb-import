@@ -1,2 +1,3 @@
 # fb-import
-old Facebook opengraph import script to periodically download posts from set of pages
+
+Facebook opengraph import script to periodically download posts from set of pages for data analysis
