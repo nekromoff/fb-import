@@ -39,8 +39,8 @@ function fetchpageposts($pageID)
 <?php
 
 $limit=5;
-$appID=208479938375;
-$appsecret="81b251e23fdbd955ccea89ad5a76a973";
+$appID=0; // app ID
+$appsecret="secret"; //app secret
 $tokenurl="https://graph.facebook.com/oauth/access_token?client_id=".$appID."&client_secret=".$appsecret."&grant_type=client_credentials";
 curl_setopt($re->ch, CURLOPT_URL, $tokenurl);
 $content=curl_exec($re->ch);

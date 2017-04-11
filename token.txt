@@ -1,0 +1,1 @@
+chmod 755 this file and it will contain temporary fb token for queries
